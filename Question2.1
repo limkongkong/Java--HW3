@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Chapter2_1 {
+
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		
+		final double constant=(9.0/5.0);
+		
+		System.out.print("Enter a number Celsius: ");
+		double Celsius=input.nextDouble();
+		
+		double Fahrenheit =constant* Celsius + 32;
+		
+		System.out.println("The Fahrenheit in Chelsius: " + Celsius + " is " + Fahrenheit );
+		
+	}
+	
+}
