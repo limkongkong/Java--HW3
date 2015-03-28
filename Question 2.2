@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+public class Chap2_2 {
+	
+	public static void main (String[] args){
+		Scanner input= new Scanner (System.in);
+		
+		final double pi=3.14159;
+		
+		System.out.print("Enter a number Radius and Length: ");
+		double Radius=input.nextDouble();
+		double Length=input.nextDouble();
+		
+		double Area=Math.pow(Radius, 2) * pi;
+		double Volume=Area*Length;
+		
+		System.out.println("The Area is: " + Area );
+		System.out.println("The Volume is: " + Volume );
+	}
+}
